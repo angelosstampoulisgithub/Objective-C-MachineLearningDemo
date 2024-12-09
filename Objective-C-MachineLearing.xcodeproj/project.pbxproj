@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D6C1B46F2D07520D00047F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C1B44B2D07520A00047F42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C1B4522D07520A00047F42;
+			remoteInfo = "Objective-C-MachineLearing";
+		};
+		D6C1B4792D07520D00047F42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C1B44B2D07520A00047F42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6C1B4522D07520A00047F42;
+			remoteInfo = "Objective-C-MachineLearing";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6C1B4532D07520A00047F42 /* Objective-C-MachineLearing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective-C-MachineLearing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C1B46E2D07520D00047F42 /* Objective-C-MachineLearingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-MachineLearingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C1B4782D07520D00047F42 /* Objective-C-MachineLearingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Objective-C-MachineLearingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D6C1B4802D07520D00047F42 /* Exceptions for "Objective-C-MachineLearing" folder in "Objective-C-MachineLearing" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D6C1B4522D07520A00047F42 /* Objective-C-MachineLearing */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6C1B4552D07520A00047F42 /* Objective-C-MachineLearing */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D6C1B4802D07520D00047F42 /* Exceptions for "Objective-C-MachineLearing" folder in "Objective-C-MachineLearing" target */,
+			);
+			path = "Objective-C-MachineLearing";
+			sourceTree = "<group>";
+		};
+		D6C1B4712D07520D00047F42 /* Objective-C-MachineLearingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-MachineLearingTests";
+			sourceTree = "<group>";
+		};
+		D6C1B47B2D07520D00047F42 /* Objective-C-MachineLearingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Objective-C-MachineLearingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6C1B4502D07520A00047F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C1B46B2D07520D00047F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C1B4752D07520D00047F42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6C1B44A2D07520A00047F42 = {
+			isa = PBXGroup;
+			children = (
+				D6C1B4552D07520A00047F42 /* Objective-C-MachineLearing */,
+				D6C1B4712D07520D00047F42 /* Objective-C-MachineLearingTests */,
+				D6C1B47B2D07520D00047F42 /* Objective-C-MachineLearingUITests */,
+				D6C1B4542D07520A00047F42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6C1B4542D07520A00047F42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C1B4532D07520A00047F42 /* Objective-C-MachineLearing.app */,
+				D6C1B46E2D07520D00047F42 /* Objective-C-MachineLearingTests.xctest */,
+				D6C1B4782D07520D00047F42 /* Objective-C-MachineLearingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6C1B4522D07520A00047F42 /* Objective-C-MachineLearing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C1B4812D07520D00047F42 /* Build configuration list for PBXNativeTarget "Objective-C-MachineLearing" */;
+			buildPhases = (
+				D6C1B44F2D07520A00047F42 /* Sources */,
+				D6C1B4502D07520A00047F42 /* Frameworks */,
+				D6C1B4512D07520A00047F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6C1B4552D07520A00047F42 /* Objective-C-MachineLearing */,
+			);
+			name = "Objective-C-MachineLearing";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-MachineLearing";
+			productReference = D6C1B4532D07520A00047F42 /* Objective-C-MachineLearing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6C1B46D2D07520D00047F42 /* Objective-C-MachineLearingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C1B4862D07520D00047F42 /* Build configuration list for PBXNativeTarget "Objective-C-MachineLearingTests" */;
+			buildPhases = (
+				D6C1B46A2D07520D00047F42 /* Sources */,
+				D6C1B46B2D07520D00047F42 /* Frameworks */,
+				D6C1B46C2D07520D00047F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C1B4702D07520D00047F42 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6C1B4712D07520D00047F42 /* Objective-C-MachineLearingTests */,
+			);
+			name = "Objective-C-MachineLearingTests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-MachineLearingTests";
+			productReference = D6C1B46E2D07520D00047F42 /* Objective-C-MachineLearingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6C1B4772D07520D00047F42 /* Objective-C-MachineLearingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C1B4892D07520D00047F42 /* Build configuration list for PBXNativeTarget "Objective-C-MachineLearingUITests" */;
+			buildPhases = (
+				D6C1B4742D07520D00047F42 /* Sources */,
+				D6C1B4752D07520D00047F42 /* Frameworks */,
+				D6C1B4762D07520D00047F42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C1B47A2D07520D00047F42 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6C1B47B2D07520D00047F42 /* Objective-C-MachineLearingUITests */,
+			);
+			name = "Objective-C-MachineLearingUITests";
+			packageProductDependencies = (
+			);
+			productName = "Objective-C-MachineLearingUITests";
+			productReference = D6C1B4782D07520D00047F42 /* Objective-C-MachineLearingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6C1B44B2D07520A00047F42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					D6C1B4522D07520A00047F42 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D6C1B46D2D07520D00047F42 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D6C1B4522D07520A00047F42;
+					};
+					D6C1B4772D07520D00047F42 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D6C1B4522D07520A00047F42;
+					};
+				};
+			};
+			buildConfigurationList = D6C1B44E2D07520A00047F42 /* Build configuration list for PBXProject "Objective-C-MachineLearing" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6C1B44A2D07520A00047F42;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6C1B4542D07520A00047F42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6C1B4522D07520A00047F42 /* Objective-C-MachineLearing */,
+				D6C1B46D2D07520D00047F42 /* Objective-C-MachineLearingTests */,
+				D6C1B4772D07520D00047F42 /* Objective-C-MachineLearingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6C1B4512D07520A00047F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C1B46C2D07520D00047F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C1B4762D07520D00047F42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6C1B44F2D07520A00047F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C1B46A2D07520D00047F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C1B4742D07520D00047F42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6C1B4702D07520D00047F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C1B4522D07520A00047F42 /* Objective-C-MachineLearing */;
+			targetProxy = D6C1B46F2D07520D00047F42 /* PBXContainerItemProxy */;
+		};
+		D6C1B47A2D07520D00047F42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6C1B4522D07520A00047F42 /* Objective-C-MachineLearing */;
+			targetProxy = D6C1B4792D07520D00047F42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6C1B4822D07520D00047F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-MachineLearing/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MachineLearing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6C1B4832D07520D00047F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Objective-C-MachineLearing/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MachineLearing";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6C1B4842D07520D00047F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6C1B4852D07520D00047F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6C1B4872D07520D00047F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MachineLearingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-MachineLearing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-MachineLearing";
+			};
+			name = Debug;
+		};
+		D6C1B4882D07520D00047F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MachineLearingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Objective-C-MachineLearing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Objective-C-MachineLearing";
+			};
+			name = Release;
+		};
+		D6C1B48A2D07520D00047F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MachineLearingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-MachineLearing";
+			};
+			name = Debug;
+		};
+		D6C1B48B2D07520D00047F42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.template.Objective-C-MachineLearingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Objective-C-MachineLearing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6C1B44E2D07520A00047F42 /* Build configuration list for PBXProject "Objective-C-MachineLearing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C1B4842D07520D00047F42 /* Debug */,
+				D6C1B4852D07520D00047F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C1B4812D07520D00047F42 /* Build configuration list for PBXNativeTarget "Objective-C-MachineLearing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C1B4822D07520D00047F42 /* Debug */,
+				D6C1B4832D07520D00047F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C1B4862D07520D00047F42 /* Build configuration list for PBXNativeTarget "Objective-C-MachineLearingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C1B4872D07520D00047F42 /* Debug */,
+				D6C1B4882D07520D00047F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6C1B4892D07520D00047F42 /* Build configuration list for PBXNativeTarget "Objective-C-MachineLearingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C1B48A2D07520D00047F42 /* Debug */,
+				D6C1B48B2D07520D00047F42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6C1B44B2D07520A00047F42 /* Project object */;
+}
